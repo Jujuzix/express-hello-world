@@ -28,6 +28,11 @@ app.get('/pokemons', (req, res) =>{
   res.json(Pokemons);
 });
 
+//Atv 04
+app.get('/series', (req, res) => {
+  const series = ["How i Met Your Mother", "The Good Doctor", "Bom dia, Verônica"];
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
